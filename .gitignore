@@ -1,0 +1,70 @@
+############################
+# OS / Editors
+############################
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+############################
+# ENV
+############################
+.env
+.env.*
+
+############################
+# Node.js (global)
+############################
+**/node_modules/
+**/.npm/
+**/.node_history
+
+############################
+# Logs
+############################
+**/*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Nuxt (client)
+############################
+client/.nuxt/
+client/.output/
+client/.dist/
+
+############################
+# Strapi (server)
+############################
+server/dist/
+server/build/
+server/.cache/
+server/.tmp/
+server/exports/
+server/.strapi/
+server/.strapi-updater.json
+server/.strapi-cloud.json
+
+############################
+# Uploads (zostaw gitkeep)
+############################
+server/public/uploads/*
+!server/public/uploads/.gitkeep
+
+############################
+# Tests / Coverage
+############################
+**/coverage/
+
+############################
+# Package managers
+############################
+**/.yarn/*
+!**/.yarn/cache
+!**/.yarn/patches
+!**/.yarn/releases
+!**/.yarn/sdks
+!**/.yarn/versions
+.pnp.*
